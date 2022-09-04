@@ -1,0 +1,2443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Search_Info_ReadyForSearch" xml:space="preserve">
+    <value>Select video file or enter movie title and click "Search" button.</value>
+  </data>
+  <data name="Ctrl_VideoPlayer_Button_Play" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="Common_SearchResults_Link_ReportedAsValid" xml:space="preserve">
+    <value>Linked</value>
+  </data>
+  <data name="Settings_Panel_OtherSettings_OverwriteSubtitleIfExists" xml:space="preserve">
+    <value>Overwrite subtitle if exists</value>
+  </data>
+  <data name="Profile_UserInfo_MyContributions_Column_Channel" xml:space="preserve">
+    <value>Channel</value>
+  </data>
+  <data name="FrmDetails_Tab_Comments_Note_LoginToAddComments" xml:space="preserve">
+    <value>You must be logged in to add comments.</value>
+  </data>
+  <data name="Publish_Toolbar_NoticeNotLoggedId" xml:space="preserve">
+    <value>Subtitles can be published only by registered users.</value>
+  </data>
+  <data name="Common_SearchResults_Column_MediaType" xml:space="preserve">
+    <value>Media type</value>
+  </data>
+  <data name="ContactUs_Warning_MessageEmpty" xml:space="preserve">
+    <value>Message must not be empty.</value>
+  </data>
+  <data name="FrmPlayer_Overview" xml:space="preserve">
+    <value>Click "Play" button and watch disc 1. When video finishes return to this dialog, select video for next disc and click "Play" again.</value>
+  </data>
+  <data name="FrmChangePassword_Label_NewPassword" xml:space="preserve">
+    <value>New password:</value>
+  </data>
+  <data name="Search_Panel_AutoSearchCriteria_Tooltip" xml:space="preserve">
+    <value>Here you can choose video file for which you want to search subtitles.</value>
+  </data>
+  <data name="Profile_UserInfo_UserLog_Column_Created" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="Publish_Error_Publishing" xml:space="preserve">
+    <value>Error publishing subtitle.
+
+Details: {0}</value>
+  </data>
+  <data name="Settings_Panel_DownloadFolder_FileNaming_AppendLanguageId" xml:space="preserve">
+    <value>Append language id to file name</value>
+  </data>
+  <data name="Connect_Error_AutoLoginFailed" xml:space="preserve">
+    <value>Auto login failed</value>
+  </data>
+  <data name="BatchDownload_GroupBox_CommandPreview" xml:space="preserve">
+    <value>Command preview:</value>
+  </data>
+  <data name="Search_Info_VideoAppNotSet" xml:space="preserve">
+    <value>To play video you must first set external application for video playback (see "Settings").</value>
+  </data>
+  <data name="LogIn_Email_Privacy" xml:space="preserve">
+    <value>Email addresses will not be sold or disclosed to any third parties.
+They will be securely saved in encrypted format and used only by Sublight.
+Emails will not be used for sending unwanted mail (spam).</value>
+  </data>
+  <data name="Settings_Panel_OtherSettings_SubtitleOptions" xml:space="preserve">
+    <value>Subtitle options</value>
+  </data>
+  <data name="Settings_Languages" xml:space="preserve">
+    <value>Languages</value>
+  </data>
+  <data name="FrmDetails_Tab_Comments_Note_SubtitleHasNoCommentsForSelectedLanguage" xml:space="preserve">
+    <value>Subtitle has no comments for selected language.</value>
+  </data>
+  <data name="Publish_Error_Publishing_SubtitlesNotValid" xml:space="preserve">
+    <value>There were some errors in your subtitle.
+
+Please open subtitle in special editor (for example Subtitle Workshop), save it, compress it to .zip archive and try to republish it.</value>
+  </data>
+  <data name="SelectIMDB_Panel_SearchCriteria_Year" xml:space="preserve">
+    <value>Year:</value>
+  </data>
+  <data name="Settings_Wizard_LanguageSubtitle_Title" xml:space="preserve">
+    <value>Please select subtitle language(s)</value>
+  </data>
+  <data name="FrmChangePassword_Label_OldPassword" xml:space="preserve">
+    <value>Old password:</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_PublishMultipleSubtitles" xml:space="preserve">
+    <value>I want to publish multiple subtitles for this movie/tv series</value>
+  </data>
+  <data name="View_Label_NewSubtitles" xml:space="preserve">
+    <value>list of newest subtitles</value>
+  </data>
+  <data name="Search_Context_ReportSubtitle" xml:space="preserve">
+    <value>Report subtitle</value>
+  </data>
+  <data name="Update_Question_Field_WhatIsNew" xml:space="preserve">
+    <value>What is new:</value>
+  </data>
+  <data name="Settings_Panel_OtherSettings_AutoFillTitle_IgnoreWords" xml:space="preserve">
+    <value>Ignore these words when auto filling title from filename:</value>
+  </data>
+  <data name="Profile_UserInfo_Button_ChangePassword" xml:space="preserve">
+    <value>Change password...</value>
+  </data>
+  <data name="Application_Error_WebException" xml:space="preserve">
+    <value>There were some problems communicating with server.
+    
+Details: {0}</value>
+  </data>
+  <data name="MyMovies_FileScan_Column_Subtitle" xml:space="preserve">
+    <value>Subtitle</value>
+  </data>
+  <data name="Settings_Toolbar_SaveAndApplyChanges" xml:space="preserve">
+    <value>Save and apply changes</value>
+  </data>
+  <data name="FrmChangePassword_Error_NoNewPassword" xml:space="preserve">
+    <value>You must enter new password.</value>
+  </data>
+  <data name="Security_Role_Administrator" xml:space="preserve">
+    <value>administrator</value>
+  </data>
+  <data name="FrmVideoAppSelector_Title" xml:space="preserve">
+    <value>External video application selection</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleHistory_Column_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="MessageBox_Question_UseSettingsFromPreviousVersion" xml:space="preserve">
+    <value>Use settings from previous version?</value>
+  </data>
+  <data name="Profile_UserInfo_UserLog_Column_UpdatedBy" xml:space="preserve">
+    <value>Updated By</value>
+  </data>
+  <data name="Plugins_Admin_Menu_Statistics_Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_Episode" xml:space="preserve">
+    <value>Episode:</value>
+  </data>
+  <data name="Search_Panel_AutoSearchCriteria_DetectedTitle" xml:space="preserve">
+    <value>Detected title:</value>
+  </data>
+  <data name="MyMovies_FileScan_Status_SearchingFiles" xml:space="preserve">
+    <value>Searching files...</value>
+  </data>
+  <data name="Settings_ExternalVideoApplication" xml:space="preserve">
+    <value>External application for video playback</value>
+  </data>
+  <data name="ContactUs_Message_PreferredLanguage" xml:space="preserve">
+    <value>please write in English</value>
+  </data>
+  <data name="Publish_Info_SuccessfullyPublished" xml:space="preserve">
+    <value>Subtitle was successfully published.
+
+Thank you!</value>
+  </data>
+  <data name="FrmSubtitleReport_Error_NoComment" xml:space="preserve">
+    <value>You must enter comment.</value>
+  </data>
+  <data name="Common_Error_InputValueIsNotValid" xml:space="preserve">
+    <value>Value is not valid: {0}.</value>
+  </data>
+  <data name="FrmChangePassword_Error_NoOldPassword" xml:space="preserve">
+    <value>You must enter old password.</value>
+  </data>
+  <data name="Search_Error_ParsingYear" xml:space="preserve">
+    <value>Error reading year.</value>
+  </data>
+  <data name="Settings_Toolbar_ReloadSettings" xml:space="preserve">
+    <value>Reload settings</value>
+  </data>
+  <data name="Application_Menu_PurchasePoints" xml:space="preserve">
+    <value>Purchase points...</value>
+  </data>
+  <data name="FrmAddMyMovieFolder_SearchSubfolders" xml:space="preserve">
+    <value>Search subfolders:</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_Language" xml:space="preserve">
+    <value>Subtitles language:</value>
+  </data>
+  <data name="FrmAddMyMovieFolder_FileTypes" xml:space="preserve">
+    <value>File types:</value>
+  </data>
+  <data name="SubtitleEditor_FrmMain_Menu_View_DiscN" xml:space="preserve">
+    <value>Disc {0}</value>
+  </data>
+  <data name="Publish_Error_ParsingSeason" xml:space="preserve">
+    <value>Error reading season.</value>
+  </data>
+  <data name="View_Context_DownloadSubtitle" xml:space="preserve">
+    <value>Download subtitle</value>
+  </data>
+  <data name="MyMovies_Context_FolderOpenInExplorer" xml:space="preserve">
+    <value>Open folder in Explorer [double click]</value>
+  </data>
+  <data name="Common_SubtitleReportReason_Status_SubtitleIsMachineTranslated" xml:space="preserve">
+    <value>subtitle is machine translated</value>
+  </data>
+  <data name="Settings_Panel_SettingsUI_SubtitleDoubleClickAction_Search" xml:space="preserve">
+    <value>"Search Subtitles" tab:</value>
+  </data>
+  <data name="BatchDownload_Field_Username" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+  <data name="Search_Group_Feedback_Title" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="FrmReportError_Title" xml:space="preserve">
+    <value>Sublight - error reporting</value>
+  </data>
+  <data name="FrmSearch_Title" xml:space="preserve">
+    <value>Searching subtitles...</value>
+  </data>
+  <data name="MyMovies_Context_SearchSubtitles" xml:space="preserve">
+    <value>Search subtitles [double click]</value>
+  </data>
+  <data name="Genre_Cartoon" xml:space="preserve">
+    <value>cartoon</value>
+  </data>
+  <data name="Search_Group_Download_Title" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Common_Button_FindDialog" xml:space="preserve">
+    <value>Find...</value>
+  </data>
+  <data name="Profile_UserInfo_General_Label_MyDownloads" xml:space="preserve">
+    <value>Subtitle downloads:</value>
+  </data>
+  <data name="Common_Selection_RemoveAll" xml:space="preserve">
+    <value>&lt;remove all&gt;</value>
+  </data>
+  <data name="Plugins_Admin_Menu_Statistics_Graphs" xml:space="preserve">
+    <value>Graphs</value>
+  </data>
+  <data name="Common_SearchResults_Column_Downloads" xml:space="preserve">
+    <value>Downloads</value>
+  </data>
+  <data name="Settings_Panel_DownloadFolder_GroupAutoDownloadLocation_NumberOfFiles" xml:space="preserve">
+    <value>Number of files:</value>
+  </data>
+  <data name="Search_Panel_ManualSearchCriteria_SuggestContextMenu_NoHits" xml:space="preserve">
+    <value>[no hits]</value>
+  </data>
+  <data name="MyMovies_FileScan_Info_NoVideoFolders" xml:space="preserve">
+    <value>Please click "Video folders" button and define your video folders.</value>
+  </data>
+  <data name="RecentArticles_Title" xml:space="preserve">
+    <value>Recent Articles</value>
+  </data>
+  <data name="Search_Toolbar_InvalidLink" xml:space="preserve">
+    <value>Invalid link</value>
+  </data>
+  <data name="Profile_UserInfo_MyStatistics_Label_PublishedSubtitlesCount" xml:space="preserve">
+    <value>Published subtitles:</value>
+  </data>
+  <data name="FrmDownload_NoteRegisteredUser" xml:space="preserve">
+    <value>Note: you have {0} points. Users with positive points do not wait for download.</value>
+  </data>
+  <data name="Common_SearchResults_Column_Episode" xml:space="preserve">
+    <value>Episode</value>
+  </data>
+  <data name="Profile_UserInfo_UserLog_Text" xml:space="preserve">
+    <value>User Log</value>
+  </data>
+  <data name="Profile_UserInfo_UserLog_Note" xml:space="preserve">
+    <value>Note: displaying results for last 30 days</value>
+  </data>
+  <data name="FrmDetails_HistoryType_StatusChangedAuthorized" xml:space="preserve">
+    <value>authorized</value>
+  </data>
+  <data name="Connect_AnonymousLogin" xml:space="preserve">
+    <value>Anonymous login...</value>
+  </data>
+  <data name="FrmDetails_ButtonMessageToPublisher" xml:space="preserve">
+    <value>Send message to publisher...</value>
+  </data>
+  <data name="SubtitleEditor_FrmMain_Info_NoChangesDetected" xml:space="preserve">
+    <value>No changes detected.</value>
+  </data>
+  <data name="MyMovies_Context_OpenInExplorer" xml:space="preserve">
+    <value>Open file in Explorer</value>
+  </data>
+  <data name="MyMovies_Title" xml:space="preserve">
+    <value>My Movies</value>
+  </data>
+  <data name="FrmReportError_HowToHandleFutureErrors_DisplayDialogAfterOneWeek" xml:space="preserve">
+    <value>Do not display this dialog for one week</value>
+  </data>
+  <data name="View_Group_Views_Title" xml:space="preserve">
+    <value>Views</value>
+  </data>
+  <data name="Search_Toolbar_ReportSubtitle" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="LogIn_Error_PasswordsDoNotMatch" xml:space="preserve">
+    <value>Passwords do not match.</value>
+  </data>
+  <data name="FrmSubtitleReport_Title" xml:space="preserve">
+    <value>Report subtitle</value>
+  </data>
+  <data name="Dialog_OpenSubtitleArchive_Title" xml:space="preserve">
+    <value>Compressed subtitles selection</value>
+  </data>
+  <data name="Settings_Panel_OtherSettings_SubtitleOptions_Note" xml:space="preserve">
+    <value>Note: applies only for subtitles from primary source</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_IMDB_Example" xml:space="preserve">
+    <value>Example: http://www.imdb.com/title/tt0076759/</value>
+  </data>
+  <data name="Ctrl_VideoPlayer_VideoFile_CueBanner" xml:space="preserve">
+    <value>Select location of video file for disk {0}</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_MovieTitle" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="FrmDetails_Field_Downloads" xml:space="preserve">
+    <value>Downloads:</value>
+  </data>
+  <data name="FrmDetails_Group_MovieInfo" xml:space="preserve">
+    <value>Movie details</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_Subtitle_AddNextSubtitle" xml:space="preserve">
+    <value>Subtitle for next disc (optional)</value>
+  </data>
+  <data name="Search_Context_DownloadSubtitles" xml:space="preserve">
+    <value>Download subtitles</value>
+  </data>
+  <data name="FrmDetails_Field_Reports" xml:space="preserve">
+    <value>Reports:</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleHistory" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="Search_Error_DownloadDecompressSave_DownloadDenied" xml:space="preserve">
+    <value>Server returned "{0}" error.
+    
+Would you like to learn more about this error?</value>
+  </data>
+  <data name="Application_Menu_Hint_PurchasePoints" xml:space="preserve">
+    <value>Here you can purchase points for fast subtitle download.</value>
+  </data>
+  <data name="Publish_Error_RequiredFields" xml:space="preserve">
+    <value>All required fields must be filled.</value>
+  </data>
+  <data name="Search_Panel_ResultsFiltering_Discs" xml:space="preserve">
+    <value>Discs:</value>
+  </data>
+  <data name="Common_Status_RegisteredUser" xml:space="preserve">
+    <value>Registered user: {0}</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_ImdbNotAvailable" xml:space="preserve">
+    <value>IMDb is not available (select only if movie is not in IMDb.com database)</value>
+  </data>
+  <data name="FrmDetails_Tab_Comments_Button_HideComment" xml:space="preserve">
+    <value>&lt;&lt; Hide comment</value>
+  </data>
+  <data name="FrmReportError_ReportDetails" xml:space="preserve">
+    <value>Report details:</value>
+  </data>
+  <data name="Settings_Panel_OtherSettings_SubtitleOptions_RemoveSubtitleFormatting" xml:space="preserve">
+    <value>Remove subtitle formatting</value>
+  </data>
+  <data name="FrmDownload_DownloadCountdown" xml:space="preserve">
+    <value>Your download will start in: {0} seconds</value>
+  </data>
+  <data name="FrmSubtitleProviderSelector_Plugin_PrimaryDatabase" xml:space="preserve">
+    <value>Primary subtitle database</value>
+  </data>
+  <data name="FrmSubtitleReport_Field_Comment" xml:space="preserve">
+    <value>Comment:</value>
+  </data>
+  <data name="Plugins_Admin_Menu_Messages" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="Connect_Question_TryAnonymousLogin" xml:space="preserve">
+    <value>Auto login failed. Try anonymous login?</value>
+  </data>
+  <data name="Settings_Panel_ExplorerIntegration" xml:space="preserve">
+    <value>Explorer integration</value>
+  </data>
+  <data name="Common_Logoff" xml:space="preserve">
+    <value>Logoff - {0}</value>
+  </data>
+  <data name="FPS_FPS_25" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitlePreview" xml:space="preserve">
+    <value>Subtitle preview</value>
+  </data>
+  <data name="Profile_UserInfo_MyContributions_Column_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Settings_Wizard_LanguageUI_Warning_NoLanguageSelected" xml:space="preserve">
+    <value>Language must be selected.</value>
+  </data>
+  <data name="Settings_Wizard_VideoApp_Title" xml:space="preserve">
+    <value>Select default application for video playback</value>
+  </data>
+  <data name="FrmDetails_Field_Title" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="Search_Info_LinkMovieWithSubtitle" xml:space="preserve">
+    <value>Please link this movie with subtitle.</value>
+  </data>
+  <data name="Profile_UserInfo_MyStatistics_Label_MySubtitlesDownloads" xml:space="preserve">
+    <value>Downloads of my subtitles:</value>
+  </data>
+  <data name="FrmDetails_Field_Votes" xml:space="preserve">
+    <value>Votes:</value>
+  </data>
+  <data name="Publish_Toolbar_PublishSubtitle" xml:space="preserve">
+    <value>Publish subtitle</value>
+  </data>
+  <data name="Settings_Panel_Plugins_SubtitleProvider_DirectDownload" xml:space="preserve">
+    <value>Direct download:</value>
+  </data>
+  <data name="Settings_Wizard_Title" xml:space="preserve">
+    <value>Sublight settings wizard</value>
+  </data>
+  <data name="Common_MediaInfo_FrameHeight" xml:space="preserve">
+    <value>Frame height:</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleHistory_Column_User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Settings_Warning_AutoVideoAppPathNotFound" xml:space="preserve">
+    <value>Could not find selected application.
+
+If you think this is incorrect click "&lt;custom"&gt; and then manually select video application executable file.</value>
+  </data>
+  <data name="SubtitleEditor_FrmPublish_Title" xml:space="preserve">
+    <value>publish subtitle</value>
+  </data>
+  <data name="MyMovies_FileScan_Button_ClearList" xml:space="preserve">
+    <value>Clear list</value>
+  </data>
+  <data name="FrmDetails_HistoryType_Published" xml:space="preserve">
+    <value>published</value>
+  </data>
+  <data name="Search_Field_Episode" xml:space="preserve">
+    <value>episode</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleDetails_Tab_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Common_SubtitleReportReason_Status_SubtitleIsBad" xml:space="preserve">
+    <value>subtitle is of bad quality</value>
+  </data>
+  <data name="View_Label_FavoriteSubtitles" xml:space="preserve">
+    <value>list of most favorite subtitles</value>
+  </data>
+  <data name="About_Copyright" xml:space="preserve">
+    <value>© 2007-2010. All rights reserved.</value>
+  </data>
+  <data name="Settings_Panel_OtherSettings_SubtitleOptions_SubtitleFormatting" xml:space="preserve">
+    <value>Subtitle formatting</value>
+  </data>
+  <data name="MessageBox_ImportSubtitle" xml:space="preserve">
+    <value>Are you author of this subtitle or do you have permission from author to publish it?</value>
+  </data>
+  <data name="MyMovies_Folders_Button_RemoveFolder" xml:space="preserve">
+    <value>Remove folder</value>
+  </data>
+  <data name="RecentArticles_Button_Close" xml:space="preserve">
+    <value>Close this view</value>
+  </data>
+  <data name="Search_Context_IMDB" xml:space="preserve">
+    <value>IMDb</value>
+  </data>
+  <data name="FrmDetails_Field_Publisher" xml:space="preserve">
+    <value>Publisher:</value>
+  </data>
+  <data name="Settings_Toolbar_ResetSettings" xml:space="preserve">
+    <value>Reset user settings</value>
+  </data>
+  <data name="Genre_Documentary" xml:space="preserve">
+    <value>documentary</value>
+  </data>
+  <data name="ContactUs_Error_ErrorSendingMessage" xml:space="preserve">
+    <value>Error occured while sending message.
+
+Details: {0}</value>
+  </data>
+  <data name="Settings_Panel_DownloadFolder_GroupAutoDownloadLocation_Location" xml:space="preserve">
+    <value>Location:</value>
+  </data>
+  <data name="RecentArticles_Group_Close_Title" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ContactUs_Warning_SubjectEmpty" xml:space="preserve">
+    <value>Subject must not be empty.</value>
+  </data>
+  <data name="FrmDownload_Info_DownloadCanceledByUser" xml:space="preserve">
+    <value>Download was canceled by user.</value>
+  </data>
+  <data name="FrmSubtitleReport_Info" xml:space="preserve">
+    <value>Please select or enter subtitle report reason.</value>
+  </data>
+  <data name="SubtitleEditor_FrmMain_Menu_Edit_FindNext" xml:space="preserve">
+    <value>Find &amp;Next</value>
+  </data>
+  <data name="ContactUs_Email_OptionalField" xml:space="preserve">
+    <value>fill only if you want our response</value>
+  </data>
+  <data name="View_Toolbar_PublishedByMe" xml:space="preserve">
+    <value>Published by me</value>
+  </data>
+  <data name="Settings_Panel_Plugins_SubtitleProvider_SearchAlways" xml:space="preserve">
+    <value>Use always</value>
+  </data>
+  <data name="Search_Toolbar_AddLink_Tooltip" xml:space="preserve">
+    <value>Click this button if selected subtitle matches played video.</value>
+  </data>
+  <data name="Common_SearchResults_Column_Linked" xml:space="preserve">
+    <value>Linked</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_VideoFile" xml:space="preserve">
+    <value>Video file:</value>
+  </data>
+  <data name="Common_MediaInfo_VideoCodec" xml:space="preserve">
+    <value>Video codec:</value>
+  </data>
+  <data name="Common_RequiredField" xml:space="preserve">
+    <value>required field</value>
+  </data>
+  <data name="Search_Error_ReportSubtitleLink" xml:space="preserve">
+    <value>An error occurred during subtitle link report.</value>
+  </data>
+  <data name="MyMovies_FileScan_ContextMenu_FileActions_SearchSubtitles" xml:space="preserve">
+    <value>Search subtitles</value>
+  </data>
+  <data name="Search_Panel_ResultsFiltering_Tooltip" xml:space="preserve">
+    <value>Here you can set optional results filtering.</value>
+  </data>
+  <data name="View_Toolbar_Statistics_FavoritesMovies" xml:space="preserve">
+    <value>most favorite movies</value>
+  </data>
+  <data name="Search_Error_DownloadDecompressSave_UnknownSubtitleType" xml:space="preserve">
+    <value>Unknown subtitle type.</value>
+  </data>
+  <data name="Search_Toolbar_ContactUs_Tooltip" xml:space="preserve">
+    <value>Here you can contact us (comment, suggestion, bug report, translation help, ...).</value>
+  </data>
+  <data name="FrmDetails_Field_SubtitleFormat" xml:space="preserve">
+    <value>Format:</value>
+  </data>
+  <data name="FrmDetails_HistoryType_SubtitleUpdated" xml:space="preserve">
+    <value>details updated</value>
+  </data>
+  <data name="Dialog_SaveSubtitleToFolder_Description" xml:space="preserve">
+    <value>Choose folder where you want to save subtitles:</value>
+  </data>
+  <data name="Settings_Panel_OtherSettings_DoNotAutoDelete" xml:space="preserve">
+    <value>Do not delete subtitles on new search</value>
+  </data>
+  <data name="Profile_UserInfo_MyStatistics_Text" xml:space="preserve">
+    <value>My statistics</value>
+  </data>
+  <data name="Settings_Wizard_SystemIntegration_Title" xml:space="preserve">
+    <value>Windows Explorer integration</value>
+  </data>
+  <data name="FrmSearch_SearchingPrimarySourceDone" xml:space="preserve">
+    <value>Searching subtitles from primary source: {0} hits</value>
+  </data>
+  <data name="Search_Context_InvalidLink" xml:space="preserve">
+    <value>Invalid link</value>
+  </data>
+  <data name="Search_Info_NoLinkedSubtitles" xml:space="preserve">
+    <value>Current video is currently not linked with any subtitle.
+
+Please use manual search.</value>
+  </data>
+  <data name="SelectIMDB_Title" xml:space="preserve">
+    <value>Search IMDb</value>
+  </data>
+  <data name="Settings_Panel_SettingsPlugins_SearchProvider" xml:space="preserve">
+    <value>Subtitles from other sources</value>
+  </data>
+  <data name="Common_MediaInfo_FrameWidth" xml:space="preserve">
+    <value>Frame width:</value>
+  </data>
+  <data name="Common_MediaInfo_Size" xml:space="preserve">
+    <value>Size:</value>
+  </data>
+  <data name="About_Version_ApplicationIsUpToDate" xml:space="preserve">
+    <value>Application is up to date</value>
+  </data>
+  <data name="FrmDetails_Field_MediaType" xml:space="preserve">
+    <value>Media type:</value>
+  </data>
+  <data name="Common_Group_Options_Title" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Profile_UserInfo_UserLog_Column_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Profile_UserInfo_MyContributions_Column_CurrentPoints" xml:space="preserve">
+    <value>Current Points</value>
+  </data>
+  <data name="MyMovies_FileScan_Button_ScanFilesFull" xml:space="preserve">
+    <value>Scan files (full)</value>
+  </data>
+  <data name="MyMovies_Button_VideoFolders" xml:space="preserve">
+    <value>Video folders</value>
+  </data>
+  <data name="Settings_Panel_DownloadFolder_FileNaming" xml:space="preserve">
+    <value>File naming</value>
+  </data>
+  <data name="Search_Context_RecentUnsuccessfulSearches" xml:space="preserve">
+    <value>Recent unsuccessful searches</value>
+  </data>
+  <data name="Search_Toolbar_Download_Tooltip" xml:space="preserve">
+    <value>Downloads selected subtitle.</value>
+  </data>
+  <data name="Application_WS_Error" xml:space="preserve">
+    <value>Server returned error.
+    
+Details: {0}</value>
+  </data>
+  <data name="Search_Toolbar_SynchronizeSubtitle" xml:space="preserve">
+    <value>Synchronize subtitle</value>
+  </data>
+  <data name="View_Toolbar_DownloadedByMe" xml:space="preserve">
+    <value>Downloaded by me</value>
+  </data>
+  <data name="Search_Panel_ResultsFiltering_RateGreaterThan" xml:space="preserve">
+    <value>greater than {0}</value>
+  </data>
+  <data name="Profile_UserInfo_MyContributions_Value_Status_NotInUse" xml:space="preserve">
+    <value>Not In Use</value>
+  </data>
+  <data name="FrmSearch_SearchingPrimarySource" xml:space="preserve">
+    <value>Searching subtitles from primary source...</value>
+  </data>
+  <data name="SelectIMDB_Tip_ConfirmSelection" xml:space="preserve">
+    <value>Tip: you can press ENTER to confirm selection</value>
+  </data>
+  <data name="AddRelease_Title" xml:space="preserve">
+    <value>Add release</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Version {0} (server: {1})</value>
+  </data>
+  <data name="View_Label_DownloadedByMe" xml:space="preserve">
+    <value>list of subtitles downloaded by me</value>
+  </data>
+  <data name="Plugins_Admin_Menu_LinkedSubtitles_Manage" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="Settings_Panel_DownloadFolder_GroupSecondary" xml:space="preserve">
+    <value>Secondary location (used when saving to primary location fails)</value>
+  </data>
+  <data name="AddRelease_Warning_NoReleaseInfo" xml:space="preserve">
+    <value>No release.</value>
+  </data>
+  <data name="Common_Button_Add" xml:space="preserve">
+    <value>Add...</value>
+  </data>
+  <data name="Settings_Question_ReloadSettings" xml:space="preserve">
+    <value>All changes will be lost. Do you really want to continue?</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleDetails" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Settings_Panel_DownloadFolder_Predefined" xml:space="preserve">
+    <value>Predefined folder:</value>
+  </data>
+  <data name="Application_Menu_Hint_Login" xml:space="preserve">
+    <value>Log in with your username.</value>
+  </data>
+  <data name="Common_Button_RemoveAll" xml:space="preserve">
+    <value>Remove all</value>
+  </data>
+  <data name="FrmAddMyMovieFolder_Folder" xml:space="preserve">
+    <value>Folder:</value>
+  </data>
+  <data name="FrmSubtitleReport_Error_NoReason" xml:space="preserve">
+    <value>You must select reason.</value>
+  </data>
+  <data name="Search_Panel_ResultsFiltering" xml:space="preserve">
+    <value>Results filtering</value>
+  </data>
+  <data name="MyMovies_FileScan_ContextMenu_FileActions_RunSublightCmd" xml:space="preserve">
+    <value>Run SublightCmd</value>
+  </data>
+  <data name="MessageBox_HelpUsLink" xml:space="preserve">
+    <value>If subtitle matches played video file then please click "Add link" button which connects subtitle with video file.
+
+This will enable other users to automatically find this subtitle.</value>
+  </data>
+  <data name="Application_Menu_Hint_About" xml:space="preserve">
+    <value>Displays application information.</value>
+  </data>
+  <data name="Settings_Languages_Description" xml:space="preserve">
+    <value>Show languages (subtitles search, subtitle publishing, subtitle commenting):</value>
+  </data>
+  <data name="Search_Context_PluginSubtitleAction" xml:space="preserve">
+    <value>More options</value>
+  </data>
+  <data name="Search_Button_Search" xml:space="preserve">
+    <value>Search subtitles</value>
+  </data>
+  <data name="FrmSaveSettings_Column_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="BatchDownload_Title" xml:space="preserve">
+    <value>Batch subtitle download</value>
+  </data>
+  <data name="Plugins_Admin_Menu_Logs" xml:space="preserve">
+    <value>Logs</value>
+  </data>
+  <data name="Plugins_Admin_Menu_IMDB" xml:space="preserve">
+    <value>IMDb</value>
+  </data>
+  <data name="Search_Panel_ManualSearchCriteria_SuggestContextMenu_WaitingForEntry" xml:space="preserve">
+    <value>[waiting for your entry]</value>
+  </data>
+  <data name="Profile_UserInfo_MyStatistics_Label_DeletedSubtitlesCount" xml:space="preserve">
+    <value>Deleted subtitles:</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleThanks" xml:space="preserve">
+    <value>Thanks</value>
+  </data>
+  <data name="Search_Error_DownloadDecompressSave_NoReadWriteRightsForPath" xml:space="preserve">
+    <value>No rights for saving to folder: {0}</value>
+  </data>
+  <data name="Search_Panel_AutoSearchCriteria" xml:space="preserve">
+    <value>Criteria for auto search</value>
+  </data>
+  <data name="MessageBox_Error_RegisteringWindowsExplorerContextMenuSimple" xml:space="preserve">
+    <value>Error registering Explorer shortcut. Check if you have required permission.</value>
+  </data>
+  <data name="Common_SearchResults_Column_AvgRate" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="Language_SR_LATN_SP" xml:space="preserve">
+    <value>Serbian</value>
+  </data>
+  <data name="Application_Tray_About" xml:space="preserve">
+    <value>About program...</value>
+  </data>
+  <data name="RecentArticles_Button_HomePage" xml:space="preserve">
+    <value>Visit home page</value>
+  </data>
+  <data name="LogIn_Info_ConfirmPasswordReset" xml:space="preserve">
+    <value>Please check your mailbox and confirm your password reset.</value>
+  </data>
+  <data name="Search_Context_WhatIsPrimarySubtitleDatabase" xml:space="preserve">
+    <value>What is primary database?</value>
+  </data>
+  <data name="Language_BS_LATN_BA" xml:space="preserve">
+    <value>Bosnian</value>
+  </data>
+  <data name="Common_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="FrmSynchronize_Header" xml:space="preserve">
+    <value>Here you can synchronize subtitle with your video. After you test subtitle you can share synchronized version of subtitle with other users. You will also receive bonus points for your contribution.</value>
+  </data>
+  <data name="Connect_ScanningDrives" xml:space="preserve">
+    <value>Scanning drives...</value>
+  </data>
+  <data name="FrmSynchronize_Label_DelayUnit_Seconds" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="Profile_UserInfo_MyContributions_Column_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Settings_Question_ResetSettings" xml:space="preserve">
+    <value>Do you really want to reset application settings to its defaults?</value>
+  </data>
+  <data name="Common_Button_Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="Publish_Error_FileTooBig" xml:space="preserve">
+    <value>File is too big.</value>
+  </data>
+  <data name="Search_Warning_VideoPathNotValid" xml:space="preserve">
+    <value>Video path is not valid.</value>
+  </data>
+  <data name="FrmLanguageSelector_Header" xml:space="preserve">
+    <value>Please select one of available languages</value>
+  </data>
+  <data name="FrmChangePassword_Error_NewPasswordReenteredDoesNotMatch" xml:space="preserve">
+    <value>Re-entered password does not match new password.</value>
+  </data>
+  <data name="ContactUs_Subject" xml:space="preserve">
+    <value>Subject:</value>
+  </data>
+  <data name="BatchDownload_Field_Languages" xml:space="preserve">
+    <value>Languages:</value>
+  </data>
+  <data name="Search_Toolbar_FilterResults" xml:space="preserve">
+    <value>Filter results</value>
+  </data>
+  <data name="Search_Panel_ManualSearchCriteria_Tooltip" xml:space="preserve">
+    <value>Here you can fill fields for manual search.</value>
+  </data>
+  <data name="Common_Menu_Properties" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="About_History" xml:space="preserve">
+    <value>History:</value>
+  </data>
+  <data name="Settings_Panel_SettingsUI_MinimizeToTray" xml:space="preserve">
+    <value>Minimize application to system tray</value>
+  </data>
+  <data name="LogIn_Username" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+  <data name="FrmAddMyMovieFolder_Error_FolderNotSet" xml:space="preserve">
+    <value>Folder is not set.</value>
+  </data>
+  <data name="Settings_Panel_OtherSettings_AutomaticLinkingEnabled" xml:space="preserve">
+    <value>Enable automatic subtitle linking</value>
+  </data>
+  <data name="Settings_Toolbar_Wizard" xml:space="preserve">
+    <value>Settings wizard</value>
+  </data>
+  <data name="FrmSearch_PluginWaitingForResponse" xml:space="preserve">
+    <value>Waiting for result: {0} seconds</value>
+  </data>
+  <data name="Settings_Title" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Search_Panel_ManualSearchCriteria_Year" xml:space="preserve">
+    <value>Year:</value>
+  </data>
+  <data name="LogIn_Error_NewUserRegistration" xml:space="preserve">
+    <value>Error registering new user.
+
+Details: {0}</value>
+  </data>
+  <data name="FrmDetails_History_DerivedSubtitle" xml:space="preserve">
+    <value>original version published</value>
+  </data>
+  <data name="Dialog_OpenApplication_Filter" xml:space="preserve">
+    <value>Applications (*.exe)|*.exe|All files (*.*)|*.*</value>
+  </data>
+  <data name="Search_Context_AddLink" xml:space="preserve">
+    <value>Link subtitle with video file</value>
+  </data>
+  <data name="Connect_ErrorOccured" xml:space="preserve">
+    <value>Error occured during login.
+
+Details: '{0}'.</value>
+  </data>
+  <data name="MessageBox_ImportSubtitleDenied" xml:space="preserve">
+    <value>Subtitle can not be imported.</value>
+  </data>
+  <data name="MessageBox_Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_IMDB" xml:space="preserve">
+    <value>IMDb:</value>
+  </data>
+  <data name="SelectIMDB_Info_NoImdbInfo" xml:space="preserve">
+    <value>No IMDb entry for this title. Please close dialog and manually enter URL link to IMDb.</value>
+  </data>
+  <data name="Common_Button_SelectAll" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="FrmAddAlternativeTitle_Field_AlternativeTitle" xml:space="preserve">
+    <value>Alternative title:</value>
+  </data>
+  <data name="Settings_Panel_DownloadFolder_SameAsVideo" xml:space="preserve">
+    <value>Same folder as video file</value>
+  </data>
+  <data name="FrmDetails_Tab_Comments_Field_Language" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="Plugins_Admin_Menu_Logs_Manage" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="Common_Subtitle_Status_Deleted" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="Application_Error_AppFileMissing" xml:space="preserve">
+    <value>Can not find application file. You can resolve this error by reinstalling application.
+
+Details: '{0}'.</value>
+  </data>
+  <data name="Common_Button_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Common_Button_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FrmDetails_Tab_Comments_Button_AddComment" xml:space="preserve">
+    <value>Add comment &gt;&gt;</value>
+  </data>
+  <data name="Common_SubtitleReportReason_Status_SubtitleIsForDifferentMovie" xml:space="preserve">
+    <value>subtitle is for different movie</value>
+  </data>
+  <data name="Connect_AutoLogin" xml:space="preserve">
+    <value>Auto login...</value>
+  </data>
+  <data name="Search_Toolbar_DownloadToCustomFolder" xml:space="preserve">
+    <value>Download...</value>
+  </data>
+  <data name="FPS_FPS_29_97" xml:space="preserve">
+    <value>29.97</value>
+  </data>
+  <data name="Common_SearchResults_Column_SubtitleType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Settings_Panel_Plugins_SubtitleProvider_SearchWhenNoResultsOnPrimarySource" xml:space="preserve">
+    <value>Use when there are no results on primary source</value>
+  </data>
+  <data name="Settings_Panel_SettingsUI" xml:space="preserve">
+    <value>User interface</value>
+  </data>
+  <data name="Settings_Panel_Plugins_SubtitleProvider_DevelopYourOwnPlugin" xml:space="preserve">
+    <value>Do you want to create your own plugin?</value>
+  </data>
+  <data name="FrmDetails_HistoryType_StatusChangedDeleted" xml:space="preserve">
+    <value>deleted</value>
+  </data>
+  <data name="Application_Menu_Hint_RegisterUser" xml:space="preserve">
+    <value>Here you can register new username. Registration is free and simple and enables you some additional functionality.</value>
+  </data>
+  <data name="SubtitleEditor_FrmPublish_Warning_EnterComment" xml:space="preserve">
+    <value>Please enter comment.</value>
+  </data>
+  <data name="Profile_UserInfo" xml:space="preserve">
+    <value>User info</value>
+  </data>
+  <data name="Settings_Panel_OtherSettings_SubtitleEncoding" xml:space="preserve">
+    <value>File encoding</value>
+  </data>
+  <data name="Common_Button_MoveUp" xml:space="preserve">
+    <value>Move up</value>
+  </data>
+  <data name="SubtitleEditor_FrmMain_Question_SaveChanges" xml:space="preserve">
+    <value>Do you want to save changes?</value>
+  </data>
+  <data name="Common_Button_Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Common_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Common_Button_Next" xml:space="preserve">
+    <value>Next &gt;</value>
+  </data>
+  <data name="Common_Button_Find" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="Common_Button_Back" xml:space="preserve">
+    <value>&lt; Back</value>
+  </data>
+  <data name="Common_Button_Edit" xml:space="preserve">
+    <value>Edit...</value>
+  </data>
+  <data name="Search_Error_DownloadDecompressSave_ErrorDownloading" xml:space="preserve">
+    <value>Error downloading subtitle.</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleHistory_Column_Changed" xml:space="preserve">
+    <value>Changed</value>
+  </data>
+  <data name="FrmDownload_Link_HowToAdvertise" xml:space="preserve">
+    <value>How to advertise?</value>
+  </data>
+  <data name="Application_Menu_About" xml:space="preserve">
+    <value>About Sublight</value>
+  </data>
+  <data name="Application_Error_ErrorSavingSettings" xml:space="preserve">
+    <value>Error saving application settings.
+    
+Details: {0}</value>
+  </data>
+  <data name="Common_Button_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Settings_Wizard_LanguageSubtitle_Warning_NoLanguageSelected" xml:space="preserve">
+    <value>At least one language must be selected.</value>
+  </data>
+  <data name="BatchDownload_Field_FileTypes" xml:space="preserve">
+    <value>File types:</value>
+  </data>
+  <data name="Settings_Panel_OtherSettings_AskForAction" xml:space="preserve">
+    <value>Ask me what to do</value>
+  </data>
+  <data name="MessageBox_Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="Common_Title" xml:space="preserve">
+    <value>Sublight - version {0}</value>
+  </data>
+  <data name="SubtitleTooltip_IMDB_UserRating" xml:space="preserve">
+    <value>User Rating</value>
+  </data>
+  <data name="Settings_Panel_ExplorerIntegration_ContextMenu" xml:space="preserve">
+    <value>Add Windows Explorer shortcut for this video types:</value>
+  </data>
+  <data name="FrmReportError_HowToHandleFutureErrors_DisplayDialogAfterOneDay" xml:space="preserve">
+    <value>Do not display this dialog for one day</value>
+  </data>
+  <data name="Common_Button_Finish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="Search_Toolbar_AddLink" xml:space="preserve">
+    <value>Add link</value>
+  </data>
+  <data name="Common_Login" xml:space="preserve">
+    <value>Login...</value>
+  </data>
+  <data name="MyMovies_Button_BatchDownload" xml:space="preserve">
+    <value>Batch subtitle download</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleDetails_Tab_Attributes" xml:space="preserve">
+    <value>Attributes</value>
+  </data>
+  <data name="Admin_Field_PleaseSelectOption" xml:space="preserve">
+    <value>Please select option</value>
+  </data>
+  <data name="Plugins_Admin_Menu_Statistics_Summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="ContactUs_Info_MessageSuccessfullySent" xml:space="preserve">
+    <value>Message was successfully sent.</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_VideoFile_CueBanner" xml:space="preserve">
+    <value>Location of video file (optional)</value>
+  </data>
+  <data name="Main_Error_Login" xml:space="preserve">
+    <value>Login error.</value>
+  </data>
+  <data name="Common_MediaInfo_VideoFormat" xml:space="preserve">
+    <value>Video format:</value>
+  </data>
+  <data name="Common_Toolbar_ClearFields" xml:space="preserve">
+    <value>Clear fields</value>
+  </data>
+  <data name="Genre_Movie" xml:space="preserve">
+    <value>movie</value>
+  </data>
+  <data name="Common_SearchResults_SubtitleAverageRate" xml:space="preserve">
+    <value>avg rate: {0:#,0.00} / {1:#,0.00}</value>
+  </data>
+  <data name="Plugin_SubtitleProvider_SearchError" xml:space="preserve">
+    <value>Plugin {0} returned error. If plugin causes problems, then you can disable it in settings. 
+
+Details: '{1}'.</value>
+  </data>
+  <data name="Genre_Other" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="Search_Question_ReportMovieHashIsTitleCorrect" xml:space="preserve">
+    <value>Is title correct and only season/episode is wrong?</value>
+  </data>
+  <data name="Search_Error_VideoHashCalculation" xml:space="preserve">
+    <value>Error during video hash calculation.</value>
+  </data>
+  <data name="Update_Question_Button_UpdateNow" xml:space="preserve">
+    <value>Update now</value>
+  </data>
+  <data name="Settings_Panel_Plugins_SubtitleProvider_Description" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="FrmDetails_Legend_EditableMark" xml:space="preserve">
+    <value>editable fields (by publishers and editors)</value>
+  </data>
+  <data name="LogIn_ReenterPassword" xml:space="preserve">
+    <value>Re-enter password:</value>
+  </data>
+  <data name="Language_GA_IE" xml:space="preserve">
+    <value>Irish</value>
+  </data>
+  <data name="Language_ES_AR" xml:space="preserve">
+    <value>Spanish (Argentina)</value>
+  </data>
+  <data name="Search_Context_SearchAllSubtitlesForThisMovie" xml:space="preserve">
+    <value>Search all subtitles for this movie</value>
+  </data>
+  <data name="Language_ZH_CN" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="Search_Panel_ManualSearchCriteria" xml:space="preserve">
+    <value>Criteria for manual search</value>
+  </data>
+  <data name="Language_PT_BR" xml:space="preserve">
+    <value>Portuguese (Brazil)</value>
+  </data>
+  <data name="Profile_UserInfo_MyContributions_Column_ValidTo" xml:space="preserve">
+    <value>Valid To (UTC)</value>
+  </data>
+  <data name="Search_Field_Season" xml:space="preserve">
+    <value>season</value>
+  </data>
+  <data name="Common_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FPS_NotAvailable" xml:space="preserve">
+    <value>FPS not available</value>
+  </data>
+  <data name="Common_Subtitle_Status_Authorised" xml:space="preserve">
+    <value>Authorised</value>
+  </data>
+  <data name="FrmAddAlternativeTitle_Error_LanguageNotSelected" xml:space="preserve">
+    <value>You must select language.</value>
+  </data>
+  <data name="VideoPlayer_Error_ErrorStartingVideoApplication" xml:space="preserve">
+    <value>There was an error while starting video application: {0}.</value>
+  </data>
+  <data name="Common_About_Version" xml:space="preserve">
+    <value>Version {0}</value>
+  </data>
+  <data name="Common_UserPoints" xml:space="preserve">
+    <value>points: {0:#,0}</value>
+  </data>
+  <data name="Profile_UserInfo_MyContributions_Value_Status_InUse" xml:space="preserve">
+    <value>In Use</value>
+  </data>
+  <data name="Profile_UserInfo_MyStatistics_Label_TotalPoints" xml:space="preserve">
+    <value>Points:</value>
+  </data>
+  <data name="FrmReportError_WasErrorNoticable" xml:space="preserve">
+    <value>Did you notice this error?</value>
+  </data>
+  <data name="FrmDetails_Field_NoImage" xml:space="preserve">
+    <value>No image</value>
+  </data>
+  <data name="MessageBox_Question_RegisterExplorerContextMenu" xml:space="preserve">
+    <value>Do you want to have shortcut for subtitle dowload in Windows Explorer context menu?
+
+This can also be changed later in application settings.</value>
+  </data>
+  <data name="FrmDetails_Button_ReportSubtitle" xml:space="preserve">
+    <value>Report subtitle</value>
+  </data>
+  <data name="View_Toolbar_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="MessageBox_Error_Unknown" xml:space="preserve">
+    <value>Unknown error.</value>
+  </data>
+  <data name="FrmChangePassword_Info_PasswordChanged" xml:space="preserve">
+    <value>Password was changed.</value>
+  </data>
+  <data name="Common_SearchResults_UserSubtitleCount" xml:space="preserve">
+    <value>{0:#,0} subtitles</value>
+  </data>
+  <data name="Search_Panel_AutoSearchCriteria_TooltipCorrectTitle" xml:space="preserve">
+    <value>This title is correct.</value>
+  </data>
+  <data name="FrmDetails_Field_Created" xml:space="preserve">
+    <value>Sent:</value>
+  </data>
+  <data name="Application_Menu_RegisterUser" xml:space="preserve">
+    <value>Register new user...</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_Release" xml:space="preserve">
+    <value>Release:</value>
+  </data>
+  <data name="Common_Selection_ShowAll" xml:space="preserve">
+    <value>&lt;show all&gt;</value>
+  </data>
+  <data name="FrmSaveSettings_Title" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="FrmDetails_Column_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Search_Context_ValidLink" xml:space="preserve">
+    <value>Valid link</value>
+  </data>
+  <data name="Plugins_Admin_Menu_LinkedSubtitles" xml:space="preserve">
+    <value>Linked subtitles</value>
+  </data>
+  <data name="LogIn_Button_NewUser" xml:space="preserve">
+    <value>New user</value>
+  </data>
+  <data name="View_Title" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="FrmDetails_Field_Season" xml:space="preserve">
+    <value>Season:</value>
+  </data>
+  <data name="LogIn_Password" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="FrmDetails_Field_Status" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="Language_UNKNOWN" xml:space="preserve">
+    <value>unknown</value>
+  </data>
+  <data name="Profile_UserInfo_MyContributions_Column_InitialPoints" xml:space="preserve">
+    <value>Initial Points</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_MediaType" xml:space="preserve">
+    <value>Media type:</value>
+  </data>
+  <data name="FrmDetails_Field_OtherTitles" xml:space="preserve">
+    <value>Other titles:</value>
+  </data>
+  <data name="MyMovies_Folders_Column_FileTypes" xml:space="preserve">
+    <value>File types</value>
+  </data>
+  <data name="FrmDetails_Field_Year" xml:space="preserve">
+    <value>Year:</value>
+  </data>
+  <data name="FrmDetails_Field_Type" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="FrmDetails_Field_Size" xml:space="preserve">
+    <value>Size:</value>
+  </data>
+  <data name="FrmDetails_Field_Rate" xml:space="preserve">
+    <value>Rate:</value>
+  </data>
+  <data name="Security_Role_User" xml:space="preserve">
+    <value>registered user</value>
+  </data>
+  <data name="Common_Button_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Search_Info_VideoFileMustBeSelectedBeforePlay" xml:space="preserve">
+    <value>First you must choose video file.</value>
+  </data>
+  <data name="Common_NotAvailable" xml:space="preserve">
+    <value>not available</value>
+  </data>
+  <data name="Settings_Panel_Plugins_SubtitleProvider" xml:space="preserve">
+    <value>Usage</value>
+  </data>
+  <data name="FrmPlayer_Title" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="FrmReportError_Header" xml:space="preserve">
+    <value>Sublight detected error and created report that you can send to us. We will treat this report as confidential.</value>
+  </data>
+  <data name="Search_Status_NumberOfHits" xml:space="preserve">
+    <value>Number of hits: {0}</value>
+  </data>
+  <data name="Settings_Wizard_LanguageUI_Title" xml:space="preserve">
+    <value>Please select user interface language</value>
+  </data>
+  <data name="Common_Question_ConfirmSubtitleDeletion" xml:space="preserve">
+    <value>Do you really want to delete subtitle?</value>
+  </data>
+  <data name="FrmDetails_Field_Comment" xml:space="preserve">
+    <value>Comment:</value>
+  </data>
+  <data name="LogIn_Error_NoPassword" xml:space="preserve">
+    <value>No password.</value>
+  </data>
+  <data name="Dialog_OpenVideo_Title" xml:space="preserve">
+    <value>Video file selection</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleDetails_Label_Attr2" xml:space="preserve">
+    <value>Standard compliance:</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleDetails_Label_Attr3" xml:space="preserve">
+    <value>Movie link information:</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleDetails_Label_Attr1" xml:space="preserve">
+    <value>Subtitle status:</value>
+  </data>
+  <data name="Common_SearchResults_Column_Attributes" xml:space="preserve">
+    <value>Attributes</value>
+  </data>
+  <data name="Search_Context_DownloadSubtitle" xml:space="preserve">
+    <value>Download subtitle</value>
+  </data>
+  <data name="Admin_Field_Welcome" xml:space="preserve">
+    <value>Welcome to the Administrative module. Please select an option from menu.</value>
+  </data>
+  <data name="Settings_Wizard_SystemIntegration_Info" xml:space="preserve">
+    <value>Add shortcut for this video types:</value>
+  </data>
+  <data name="Common_MediaInfo_FrameRate" xml:space="preserve">
+    <value>Frame rate:</value>
+  </data>
+  <data name="Settings_Panel_DownloadFolder_GroupAutoDownloadLocation" xml:space="preserve">
+    <value>Auto save location</value>
+  </data>
+  <data name="Settings_Panel_Plugins_SubtitleProvider_Name" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="Settings_Panel_Plugins_SubtitleProvider_File" xml:space="preserve">
+    <value>File:</value>
+  </data>
+  <data name="SubtitleEditor_FrmMain_Menu_File_PublishSubtitle" xml:space="preserve">
+    <value>&amp;Publish subtitle...</value>
+  </data>
+  <data name="FrmDetails_SuccessfullyUpdated" xml:space="preserve">
+    <value>Subtitle was successfully updated.</value>
+  </data>
+  <data name="RecentArticles_ArticleHint" xml:space="preserve">
+    <value>Published: {0:D}
+Author: {1}</value>
+  </data>
+  <data name="Settings_Panel_Plugins_SubtitleProviderOrder" xml:space="preserve">
+    <value>Search order</value>
+  </data>
+  <data name="Security_Role_SubtitleEditor" xml:space="preserve">
+    <value>editor</value>
+  </data>
+  <data name="FrmDetails_Field_Language" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="Search_Context_ClearItems" xml:space="preserve">
+    <value>&lt;clear items&gt;</value>
+  </data>
+  <data name="Application_Menu_Hint_Logoff" xml:space="preserve">
+    <value>Logs off your username from current session.</value>
+  </data>
+  <data name="Search_Toolbar_InvalidLink_Tooltip" xml:space="preserve">
+    <value>Click this button if selected subtitle does not match played video.</value>
+  </data>
+  <data name="Common_Button_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="Search_Panel_ManualSearchCriteria_Title" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="Publish_Warning_SameSubtitleIsAlreadySelected" xml:space="preserve">
+    <value>Same subtitle is already selected.</value>
+  </data>
+  <data name="Settings_ExternalVideoApplication_Parameters" xml:space="preserve">
+    <value>Parameters:</value>
+  </data>
+  <data name="FrmDetails_Field_Episode" xml:space="preserve">
+    <value>Episode:</value>
+  </data>
+  <data name="FrmSearch_SearchingSecondarySourceProgress" xml:space="preserve">
+    <value>Searching subtitles from other sources: {0} hits</value>
+  </data>
+  <data name="MessageBox_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Settings_Warning_SelectValidVideoAppPath" xml:space="preserve">
+    <value>You must select valid application path.</value>
+  </data>
+  <data name="MyMovies_Folders_Button_AddFolder" xml:space="preserve">
+    <value>Add folder...</value>
+  </data>
+  <data name="Settings_ExternalVideoApplication_WmpHelp" xml:space="preserve">
+    <value>How do I configure Windows Media Player to play subtitles?</value>
+  </data>
+  <data name="FrmAddAlternativeTitle_Error_NoTitle" xml:space="preserve">
+    <value>You must enter title.</value>
+  </data>
+  <data name="AddRelease_Release" xml:space="preserve">
+    <value>Release:</value>
+  </data>
+  <data name="Ctrl_Comments_DisplayPage" xml:space="preserve">
+    <value>Page:</value>
+  </data>
+  <data name="Search_Info_DownloadDecompressSave_SubtitleWasSavedToSecondaryLocation" xml:space="preserve">
+    <value>Subtitle was saved to secondary location: {0}</value>
+  </data>
+  <data name="Common_SearchResults_Link_ReportedAsInvalid" xml:space="preserve">
+    <value>Reported</value>
+  </data>
+  <data name="Common_SearchResults_Column_Publisher" xml:space="preserve">
+    <value>Publisher</value>
+  </data>
+  <data name="FrmDetails_Tab_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Common_Subtitle_Status_PartiallyAuthorised" xml:space="preserve">
+    <value>Partially authorised</value>
+  </data>
+  <data name="Settings_Panel_OtherSettings_SingleInstanceApplication" xml:space="preserve">
+    <value>Allow only one instance of application</value>
+  </data>
+  <data name="Common_MediaInfo_AudioFormat" xml:space="preserve">
+    <value>Audio format:</value>
+  </data>
+  <data name="FrmSynchronize_Button_Publish" xml:space="preserve">
+    <value>Publish</value>
+  </data>
+  <data name="VideoPlayer_Question_IsSubtitleSynchronizedWithVideo" xml:space="preserve">
+    <value>Was subtitle synchronized with video?</value>
+  </data>
+  <data name="FrmSynchronize_Label_SetDelay" xml:space="preserve">
+    <value>Set delay:</value>
+  </data>
+  <data name="Profile_UserInfo_Label_Status" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="MyMovies_FileScan_Button_ShowFileDetails" xml:space="preserve">
+    <value>Show file details</value>
+  </data>
+  <data name="Profile_UserInfo_Info_EmailWasUpdated" xml:space="preserve">
+    <value>Email was updated.</value>
+  </data>
+  <data name="Search_Toolbar_RateSubtitle" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="LogIn_NewUserCaption" xml:space="preserve">
+    <value>New user registration</value>
+  </data>
+  <data name="About_Version_NewVersionIsAvailable" xml:space="preserve">
+    <value>New version is available ({0})</value>
+  </data>
+  <data name="FrmSearch_SearchingSecondarySource" xml:space="preserve">
+    <value>Searching subtitles from other sources...</value>
+  </data>
+  <data name="AddRelease_FPS" xml:space="preserve">
+    <value>FPS:</value>
+  </data>
+  <data name="Update_Question_NewVersionIsAvailable_Title" xml:space="preserve">
+    <value>New version is available</value>
+  </data>
+  <data name="Search_Title" xml:space="preserve">
+    <value>Search Subtitles</value>
+  </data>
+  <data name="Search_Info_NoMatchingSubtitles" xml:space="preserve">
+    <value>We couldn't find any subtitles matching your criteria.</value>
+  </data>
+  <data name="Profile_UserInfo_MyStatistics_Label_SubtitleThanksCount" xml:space="preserve">
+    <value>Thanks:</value>
+  </data>
+  <data name="Main_Error_Logoff" xml:space="preserve">
+    <value>Logoff error.</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_FPS" xml:space="preserve">
+    <value>FPS:</value>
+  </data>
+  <data name="Profile_UserInfo_MyStatistics_Label_AvgSubtitleRate" xml:space="preserve">
+    <value>Average rate:</value>
+  </data>
+  <data name="RecentArticles_Group_Links_Title" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="MyMovies_FileScan_Column_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="MyMovies_FileScan_Column_Hash" xml:space="preserve">
+    <value>Hash</value>
+  </data>
+  <data name="MyMovies_FileScan_Button_ScanFilesNewOnly" xml:space="preserve">
+    <value>Scan files (new only)</value>
+  </data>
+  <data name="MyMovies_FileScan_Column_Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Common_Error_FileDoesNotExist" xml:space="preserve">
+    <value>File '{0}' does not exist.</value>
+  </data>
+  <data name="Settings_Panel_OtherSettings" xml:space="preserve">
+    <value>Other settings</value>
+  </data>
+  <data name="Settings_ExternalVideoApplication_ParametersHelp" xml:space="preserve">
+    <value>Legend</value>
+  </data>
+  <data name="Profile_UserInfo_Button_UpdateEmail" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="FrmAddAlternativeTitle_Title" xml:space="preserve">
+    <value>Add alternative title</value>
+  </data>
+  <data name="Common_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Connect_LoadingMainForm" xml:space="preserve">
+    <value>Loading application...</value>
+  </data>
+  <data name="Publish_Error_VideoHashCalculation" xml:space="preserve">
+    <value>Error during video hash calculation.</value>
+  </data>
+  <data name="Application_Question_DisplayQuickHelp" xml:space="preserve">
+    <value>Would you like to display quick help?</value>
+  </data>
+  <data name="Search_Toolbar_Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Profile_UserInfo_MyContributions_Text" xml:space="preserve">
+    <value>My Contributions</value>
+  </data>
+  <data name="Search_Info_SearchWasLimited" xml:space="preserve">
+    <value>Search results were limited. Please refine your search or setup "Results filtering".</value>
+  </data>
+  <data name="BatchDownload_Field_Folder" xml:space="preserve">
+    <value>Folder:</value>
+  </data>
+  <data name="Plugins_Admin_Menu_Points_Summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Settings_Panel_SettingsUI_SubtitleDoubleClickAction_DownloadAndPlay" xml:space="preserve">
+    <value>Download subtitle and play</value>
+  </data>
+  <data name="Settings_ExternalVideoApplication_Type" xml:space="preserve">
+    <value>Video application:</value>
+  </data>
+  <data name="Settings_ExternalVideoApplication_Help" xml:space="preserve">
+    <value>Tested applications:</value>
+  </data>
+  <data name="LogIn_Error_NoEmail" xml:space="preserve">
+    <value>No email.</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_NonIMDB_Example" xml:space="preserve">
+    <value>Example: My movie title (1987)</value>
+  </data>
+  <data name="Profile_UserInfo_MyContributions_Value_ValidTo_Unlimited" xml:space="preserve">
+    <value>Unlimited</value>
+  </data>
+  <data name="Search_Panel_AutoSearchCriteria_VideoFile_CueBanner" xml:space="preserve">
+    <value>Location of video file</value>
+  </data>
+  <data name="Common_MediaInfo_Runtime" xml:space="preserve">
+    <value>Runtime:</value>
+  </data>
+  <data name="About_Title" xml:space="preserve">
+    <value>About application</value>
+  </data>
+  <data name="Search_Error_DownloadDecompressSave_ErrorDownloadingDetails" xml:space="preserve">
+    <value>Error downloading subtitle.
+
+Details: {0}.</value>
+  </data>
+  <data name="Connect_Error_AnonymousLoginFailed" xml:space="preserve">
+    <value>Anonymous login failed</value>
+  </data>
+  <data name="ContactUs_ContactForm" xml:space="preserve">
+    <value>Contact form</value>
+  </data>
+  <data name="FrmAddMyMovieFolder_Title" xml:space="preserve">
+    <value>Add folder containing movie files</value>
+  </data>
+  <data name="SubtitleEditor_FrmMain_Menu_File_Exit" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="Settings_Panel_Plugins_SubtitleProvider_SearchNewer" xml:space="preserve">
+    <value>Never use</value>
+  </data>
+  <data name="Profile_UserInfo_MyContributions_Column_Date" xml:space="preserve">
+    <value>Date (UTC)</value>
+  </data>
+  <data name="View_Toolbar_Statistics" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="FrmSynchronize_Title" xml:space="preserve">
+    <value>Synchronize subtitle</value>
+  </data>
+  <data name="MyMovies_FileScan_Status_Done" xml:space="preserve">
+    <value>Done: {0} %</value>
+  </data>
+  <data name="ContactUs_Message" xml:space="preserve">
+    <value>Message:</value>
+  </data>
+  <data name="Search_Info_AlsoSearchOtherSources" xml:space="preserve">
+    <value>Search also other sources (hold down SHIFT key).</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_Comment" xml:space="preserve">
+    <value>Comment:</value>
+  </data>
+  <data name="Search_Context_SearchAllSubtitlesFromThisPublisher" xml:space="preserve">
+    <value>Search all subtitles from this publisher</value>
+  </data>
+  <data name="Search_Error_SubtitleNotSelected" xml:space="preserve">
+    <value>Subtitle is not selected.</value>
+  </data>
+  <data name="Search_Context_DownloadAndPlay" xml:space="preserve">
+    <value>Play video with subtitle</value>
+  </data>
+  <data name="Search_SearchResults_Legend_Linked" xml:space="preserve">
+    <value>subtitle is linked</value>
+  </data>
+  <data name="Publish_Warning_VideoFileDoesNotExist" xml:space="preserve">
+    <value>Video file does not exist.</value>
+  </data>
+  <data name="Plugins_Admin_Menu_Messages_Manage" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="Search_Panel_ResultsFiltering_Language" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="Profile_UserInfo_Label_Registered" xml:space="preserve">
+    <value>Registered:</value>
+  </data>
+  <data name="Search_Panel_AutoSearchCriteria_VideoFile" xml:space="preserve">
+    <value>Video file:</value>
+  </data>
+  <data name="Settings_Panel_DownloadFolder" xml:space="preserve">
+    <value>Subtitles download folder</value>
+  </data>
+  <data name="FrmSearch_PluginStopping" xml:space="preserve">
+    <value>Stopping...</value>
+  </data>
+  <data name="Plugin_SubtitleProvider_ErrorDownloading" xml:space="preserve">
+    <value>Error occured during subtitle download.
+
+Details: '{0}'.</value>
+  </data>
+  <data name="Application_Error" xml:space="preserve">
+    <value>Application encountered an error. It is recommended to restart application.</value>
+  </data>
+  <data name="LogIn_Title" xml:space="preserve">
+    <value>Log In</value>
+  </data>
+  <data name="AddRelease_Warning_NoFPS" xml:space="preserve">
+    <value>FPS is not selected.</value>
+  </data>
+  <data name="LogIn_Email" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="Settings_Panel_DownloadFolder_GroupPrimary" xml:space="preserve">
+    <value>Primary location</value>
+  </data>
+  <data name="Search_Question_DownloadDecompressSave_UnknownSubtitleType" xml:space="preserve">
+    <value>Unknown subtitle type. Do you want to continue?</value>
+  </data>
+  <data name="FrmReportError_Question_ApplyNewSettings" xml:space="preserve">
+    <value>Would you like apply new error handling settings?</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails" xml:space="preserve">
+    <value>Subtitle details</value>
+  </data>
+  <data name="Settings_Panel_OtherSettings_AutoDeleteDownloadedSubtitles" xml:space="preserve">
+    <value>Auto delete downloaded subtitles:</value>
+  </data>
+  <data name="Plugins_Admin_Menu_Points" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="Common_Language" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="Application_Tray_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Application_Tray_Show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Settings_Wizard_SubtitlePlugins_Title" xml:space="preserve">
+    <value>Select subtitle plugins</value>
+  </data>
+  <data name="Settings_Panel_SettingsUI_SubtitleDoubleClickAction_View" xml:space="preserve">
+    <value>"View" tab:</value>
+  </data>
+  <data name="Common_SearchResults_Column_Created" xml:space="preserve">
+    <value>Submited</value>
+  </data>
+  <data name="Settings_Panel_OtherSettings_AutoDelete" xml:space="preserve">
+    <value>Auto delete subtitles on new search</value>
+  </data>
+  <data name="Application_Menu_Exit" xml:space="preserve">
+    <value>Exit Sublight</value>
+  </data>
+  <data name="Common_Button_ChooseFile" xml:space="preserve">
+    <value>Choose...</value>
+  </data>
+  <data name="Publish_Error_ParsingEpisode" xml:space="preserve">
+    <value>Error reading episode.</value>
+  </data>
+  <data name="FrmDownload_Button_HowToIncreaseMyPoints" xml:space="preserve">
+    <value>How to increase my points?</value>
+  </data>
+  <data name="FrmDetails_Tab_NFO" xml:space="preserve">
+    <value>.NFO</value>
+  </data>
+  <data name="FrmDetails_HistoryType_StatusChanged" xml:space="preserve">
+    <value>changed status</value>
+  </data>
+  <data name="FrmReportError_HowToHandleFutureErrors_DoNotDisplayDialog" xml:space="preserve">
+    <value>Do not display this dialog anymore (not recommended)</value>
+  </data>
+  <data name="MyMovies_FileScan_GroupBox_FileDetails" xml:space="preserve">
+    <value>File details</value>
+  </data>
+  <data name="Application_Info_WhatIsPrimaryDatabase" xml:space="preserve">
+    <value>Primary subtitle database allows you advanced functions like subtitle details and linking subtitles with video files (auto search).</value>
+  </data>
+  <data name="View_Toolbar_Favorites" xml:space="preserve">
+    <value>Favorite subtitles</value>
+  </data>
+  <data name="Common_SearchResults_Column_Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Common_SearchResults_Column_Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="Common_SearchResults_Column_Reports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="Search_SearchResults_Legend_NotLinked" xml:space="preserve">
+    <value>subtitle is not linked</value>
+  </data>
+  <data name="Genre_Serial" xml:space="preserve">
+    <value>tv series</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleDetails_Tab_Releases" xml:space="preserve">
+    <value>Releases</value>
+  </data>
+  <data name="Settings_Panel_ExplorerIntegration_BatchDownload" xml:space="preserve">
+    <value>Enable "Batch subtitle download..."</value>
+  </data>
+  <data name="Search_Toolbar_ValidLink" xml:space="preserve">
+    <value>Valid link</value>
+  </data>
+  <data name="SubtitleEditor_FrmPublish_Label_Comment" xml:space="preserve">
+    <value>Please enter your comment:</value>
+  </data>
+  <data name="Dialog_OpenVideo_Filter" xml:space="preserve">
+    <value>Video files ({0})|{0}|All files (*.*)|*.*</value>
+  </data>
+  <data name="Profile_UserInfo_MyContributions_Field_PurchasePoints" xml:space="preserve">
+    <value>Do you need more points?</value>
+  </data>
+  <data name="Search_Toolbar_Play_Tooltip" xml:space="preserve">
+    <value>Plays video file with selected subtitle.</value>
+  </data>
+  <data name="FrmChangePassword_Label_NewPasswordReentered" xml:space="preserve">
+    <value>Re-enter password:</value>
+  </data>
+  <data name="FrmDownload_NoteAnonymousUser" xml:space="preserve">
+    <value>Note: logged in users with positive points do not wait for download.</value>
+  </data>
+  <data name="Publish_Title" xml:space="preserve">
+    <value>Publish subtitle</value>
+  </data>
+  <data name="Profile_UserInfo_UserLog_Column_Points" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="WindowsExplorer_ContextMenu_FindSubtitles" xml:space="preserve">
+    <value>Find subtitles</value>
+  </data>
+  <data name="Search_Context_AddRelease" xml:space="preserve">
+    <value>Add release...</value>
+  </data>
+  <data name="Search_Context_ImportSubtitle" xml:space="preserve">
+    <value>Import subtitle into primary database...</value>
+  </data>
+  <data name="MyMovies_Button_VideoFiles" xml:space="preserve">
+    <value>Video files</value>
+  </data>
+  <data name="View_Toolbar_IMDB" xml:space="preserve">
+    <value>IMDb</value>
+  </data>
+  <data name="Search_Panel_AutoSearchCriteria_TooltipIncorrectTitle" xml:space="preserve">
+    <value>This title is not correct.</value>
+  </data>
+  <data name="Common_Status_AnonymousUser" xml:space="preserve">
+    <value>Anonymous user (click to login)</value>
+  </data>
+  <data name="SelectIMDB_ParsingYear" xml:space="preserve">
+    <value>Error reading year.</value>
+  </data>
+  <data name="FrmDetails_Tab_Comments_Note_SelectLanguageToViewComments" xml:space="preserve">
+    <value>You must select language to view comments.</value>
+  </data>
+  <data name="Common_Selection_Custom" xml:space="preserve">
+    <value>&lt;custom&gt;</value>
+  </data>
+  <data name="LogIn_UserLoginCaption" xml:space="preserve">
+    <value>Login registered user</value>
+  </data>
+  <data name="Common_Selection_SelectAll" xml:space="preserve">
+    <value>&lt;select all&gt;</value>
+  </data>
+  <data name="Common_SearchResults_Column_Votes" xml:space="preserve">
+    <value>Votes</value>
+  </data>
+  <data name="Common_SearchResults_Column_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleThanks_Column_User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="View_Toolbar_DownloadToCustomFolder" xml:space="preserve">
+    <value>Download...</value>
+  </data>
+  <data name="Plugins_Admin_Menu_Subtitles_Manage" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="Common_Status_WebSite" xml:space="preserve">
+    <value>Visit web site</value>
+  </data>
+  <data name="Plugins_Admin_Menu_Users_Manage" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="FrmDetails_Field_NumberOfWords" xml:space="preserve">
+    <value>Words:</value>
+  </data>
+  <data name="Search_Toolbar_ValidLink_Tooltip" xml:space="preserve">
+    <value>Click this button if selected subtitle matches played video.</value>
+  </data>
+  <data name="FrmLanguageSelector_Title" xml:space="preserve">
+    <value>Change user interface language</value>
+  </data>
+  <data name="Search_Warning_NoGenreSelected" xml:space="preserve">
+    <value>At least one genre must be selected.</value>
+  </data>
+  <data name="Search_Error_DownloadDecompressSave_ErrorWritingFile" xml:space="preserve">
+    <value>Error writing file ({0}). Please check if you have required rights.</value>
+  </data>
+  <data name="Common_Selection_Show" xml:space="preserve">
+    <value>&lt;show&gt;</value>
+  </data>
+  <data name="FrmDetails_Field_NumberOfLines" xml:space="preserve">
+    <value>Lines:</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleThanks_Column_Created" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="Common_Info_YouMustLogInToUseThisFeature" xml:space="preserve">
+    <value>You must login to use this feature.</value>
+  </data>
+  <data name="Settings_Warning_DownloadFolderNotValid" xml:space="preserve">
+    <value>You must select valid folder.</value>
+  </data>
+  <data name="ContactUs_Email" xml:space="preserve">
+    <value>Your email:</value>
+  </data>
+  <data name="SubtitleEditor_FrmFind_Info_CannotFind" xml:space="preserve">
+    <value>Cannot find "{0}"</value>
+  </data>
+  <data name="Plugins_Admin_Menu_Statistics_Methods" xml:space="preserve">
+    <value>Methods</value>
+  </data>
+  <data name="VideoPlayer_Error_UnknownVideoApp" xml:space="preserve">
+    <value>Unknown video application.</value>
+  </data>
+  <data name="Settings_SaveResults_Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="Publish_Info_Publishing_SubtitleAlreadyExists" xml:space="preserve">
+    <value>Subtitle was already published.</value>
+  </data>
+  <data name="Common_Status_Loading" xml:space="preserve">
+    <value>Please Wait...</value>
+  </data>
+  <data name="Application_Uninstall_Question_DeleteSettings" xml:space="preserve">
+    <value>Do you want to delete Sublight settings?</value>
+  </data>
+  <data name="Common_DoNotDisplayThisMessageAnymore" xml:space="preserve">
+    <value>Do not display this message anymore</value>
+  </data>
+  <data name="FrmAddMyMovieFolder_FileTypes_Tip" xml:space="preserve">
+    <value>multiple extensions must be separated with semicolons, example: *.avi; *.divx</value>
+  </data>
+  <data name="Search_Panel_ManualSearchCriteria_Season" xml:space="preserve">
+    <value>Season:</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleThanks_Button_Thanks" xml:space="preserve">
+    <value>Say thanks</value>
+  </data>
+  <data name="ContextTab_Options_Title" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Common_Button_MoveDown" xml:space="preserve">
+    <value>Move down</value>
+  </data>
+  <data name="Dialog_OpenApplication_Title" xml:space="preserve">
+    <value>Select external application for video playback</value>
+  </data>
+  <data name="Common_SearchResults_NoReleaseInfo" xml:space="preserve">
+    <value>(no release info)</value>
+  </data>
+  <data name="FrmAddAlternativeTitle_Field_AlternativeTitleLanguage" xml:space="preserve">
+    <value>Title language:</value>
+  </data>
+  <data name="Common_MediaInfo_VideoCodecID" xml:space="preserve">
+    <value>Video codec ID:</value>
+  </data>
+  <data name="FrmSubtitleProviderSelector_Header" xml:space="preserve">
+    <value>Which subtitle search engines do you want to use?</value>
+  </data>
+  <data name="Update_Question_NewVersionIsAvailable" xml:space="preserve">
+    <value>New version is available ({0}).</value>
+  </data>
+  <data name="Update_DoNotDisplayForThisVersion" xml:space="preserve">
+    <value>Do not display for this version</value>
+  </data>
+  <data name="FrmSynchronize_Button_TestSubtitle" xml:space="preserve">
+    <value>Test subtitle</value>
+  </data>
+  <data name="Search_Group_Linking_Title" xml:space="preserve">
+    <value>Linking</value>
+  </data>
+  <data name="Publish_Note_Disclaimer" xml:space="preserve">
+    <value>Note: to publish subtitle you must be its author or have permission from its author. We reserve right to change or delete published subtitle without further notice.</value>
+  </data>
+  <data name="Settings_ExternalVideoApplication_ParametersHelp_Tooltip" xml:space="preserve">
+    <value>{0} = video file path; {1} = subtitles path</value>
+  </data>
+  <data name="MyMovies_FileScan_Column_Created" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="Search_Panel_ManualSearchCriteria_Episode" xml:space="preserve">
+    <value>Episode:</value>
+  </data>
+  <data name="MyMovies_FileScan_Button_FileActions" xml:space="preserve">
+    <value>File actions</value>
+  </data>
+  <data name="Search_Context_PluginInfo" xml:space="preserve">
+    <value>Information about plugin...</value>
+  </data>
+  <data name="Settings_Panel_DownloadFolder_Manual" xml:space="preserve">
+    <value>Always ask user</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_SubtitleArchive" xml:space="preserve">
+    <value>Subtitles:</value>
+  </data>
+  <data name="Dialog_OpenSubtitleArchive_Filter" xml:space="preserve">
+    <value>ZIP archive (*.zip), RAR archive (*.rar), SUB file (*.sub), SRT file (*.srt), SAMI file (*.sami)|*.zip;*.rar;*.sub;*.srt;*.sami|All files (*.*)|*.*</value>
+  </data>
+  <data name="Common_SubtitleReportReason_Status_SubtitleIsForDifferentLanguage" xml:space="preserve">
+    <value>subtitle is for different language</value>
+  </data>
+  <data name="Common_SubtitleReportReason_Status_Custom" xml:space="preserve">
+    <value>custom</value>
+  </data>
+  <data name="Common_Tip_EnterOpensDialog" xml:space="preserve">
+    <value>Tip: you can press ENTER to open dialog</value>
+  </data>
+  <data name="Search_Context_RateSubtitle" xml:space="preserve">
+    <value>Rate subtitle</value>
+  </data>
+  <data name="FrmSaveSettings_Column_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="MessageBox_Info" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="FrmDetails_Column_LineNumber" xml:space="preserve">
+    <value>Line</value>
+  </data>
+  <data name="Search_Warning_NoLanguageSelected" xml:space="preserve">
+    <value>At least one language must be selected.</value>
+  </data>
+  <data name="Common_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Dialog_OpenSubtitle_Filter" xml:space="preserve">
+    <value>{0} file (*.{0})|*.{0}</value>
+  </data>
+  <data name="FrmReportError_UserComment" xml:space="preserve">
+    <value>To help us diagnose the cause of this error and improve this software, please describe what you were doing:</value>
+  </data>
+  <data name="Search_Warning_NoSearchCriteria" xml:space="preserve">
+    <value>You must enter search criteria.</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_Season" xml:space="preserve">
+    <value>Season:</value>
+  </data>
+  <data name="Search_Context_RateSubtitle_5" xml:space="preserve">
+    <value>5 (excellent)</value>
+  </data>
+  <data name="Search_Context_RateSubtitle_4" xml:space="preserve">
+    <value>4 (above average)</value>
+  </data>
+  <data name="Search_Context_RateSubtitle_1" xml:space="preserve">
+    <value>1 (poor)</value>
+  </data>
+  <data name="Search_Context_RateSubtitle_3" xml:space="preserve">
+    <value>3 (average)</value>
+  </data>
+  <data name="Search_Context_RateSubtitle_2" xml:space="preserve">
+    <value>2 (belove average)</value>
+  </data>
+  <data name="MyMovies_Folders_Column_Folder" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="SubtitleEditor_FrmMain_Menu_View" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="SubtitleEditor_FrmMain_Menu_File" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="SubtitleEditor_FrmMain_Menu_Edit" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_Button_UseFolderNameForReleaseName" xml:space="preserve">
+    <value>Use folder name</value>
+  </data>
+  <data name="Search_Error_LinkingSubtitle" xml:space="preserve">
+    <value>Error linking subtitle: '{0}'.</value>
+  </data>
+  <data name="Profile_Title" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="Search_Panel_ManualSearchCriteria_Title_CueBanner" xml:space="preserve">
+    <value>Search by title</value>
+  </data>
+  <data name="Settings_Panel_SettingsUI_SubtitleDoubleClickAction" xml:space="preserve">
+    <value>Subtitle double click action</value>
+  </data>
+  <data name="FPS_FPS_23_976" xml:space="preserve">
+    <value>23.976</value>
+  </data>
+  <data name="Plugins_Admin_Menu_Statistics" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="Settings_Wizard_VideoApp_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Search_Error_DownloadDecompressSave_ErrorDownloading_ZipException" xml:space="preserve">
+    <value>Error decompressing archive.</value>
+  </data>
+  <data name="Common_Status_OnlineUsers" xml:space="preserve">
+    <value>Users online: {0}</value>
+  </data>
+  <data name="View_Label_PublishedByMe" xml:space="preserve">
+    <value>list of subtitles published by me</value>
+  </data>
+  <data name="Common_Selection_NotSelected" xml:space="preserve">
+    <value>&lt;not selected&gt;</value>
+  </data>
+  <data name="Profile_UserInfo_Label_Email" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="Update_NewMandatoryVersionAvailable" xml:space="preserve">
+    <value>NOTE: please upgrade as soon as possible</value>
+  </data>
+  <data name="SubtitleEditor_FrmMain_Menu_Edit_Find" xml:space="preserve">
+    <value>&amp;Find...</value>
+  </data>
+  <data name="Plugins_Admin_Menu_IMDB_Manage" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="FrmDetails_Tab_Comments_Group_AddComment" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="FrmSubtitleReport_Field_Reason" xml:space="preserve">
+    <value>Reason:</value>
+  </data>
+  <data name="LogIn_Button_ResetPassword" xml:space="preserve">
+    <value>Reset password</value>
+  </data>
+  <data name="FrmChangePassword_Text" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="Plugins_Admin_Menu_Users" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="WindowsExplorer_ContextMenu_BatchDownload" xml:space="preserve">
+    <value>Batch subtitle download...</value>
+  </data>
+  <data name="Profile_UserInfo_UserLog_Column_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="SubtitleEditor_FrmMain_Title_DiscNum" xml:space="preserve">
+    <value>disc {0}/{1}</value>
+  </data>
+  <data name="Common_Error_SubtitleCompression" xml:space="preserve">
+    <value>Error during subtitle compression.</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_Genre" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="Search_Question_DeleteDownloadedSubtitles" xml:space="preserve">
+    <value>Delete downloaded subtitles?</value>
+  </data>
+  <data name="LogIn_Error_NoUsername" xml:space="preserve">
+    <value>No username.</value>
+  </data>
+  <data name="Publish_Panel_SubtitleDetails_Discs" xml:space="preserve">
+    <value>Discs:</value>
+  </data>
+  <data name="Search_Toolbar_Play" xml:space="preserve">
+    <value>Play with subtitle</value>
+  </data>
+  <data name="FrmReportError_HowToHandleFutureErrors" xml:space="preserve">
+    <value>How would you like to handle future errors?</value>
+  </data>
+  <data name="Settings_ExternalVideoApplication_Location" xml:space="preserve">
+    <value>Location:</value>
+  </data>
+  <data name="Search_Panel_AutoSearchCriteria_AutoFillTitle" xml:space="preserve">
+    <value>Auto fill title for manual search</value>
+  </data>
+  <data name="Common_Subtitle_Status_PartiallyAuthorisedWarning" xml:space="preserve">
+    <value>Partially authorised *</value>
+  </data>
+  <data name="Search_Button_FeelingLucky" xml:space="preserve">
+    <value>I'm Feeling Lucky</value>
+  </data>
+  <data name="Search_Toolbar_NoticeFiltersAreSet" xml:space="preserve">
+    <value>Note: some filters are set</value>
+  </data>
+  <data name="FrmVideoAppSelector_Header" xml:space="preserve">
+    <value>Which application do you want to use for video playback?</value>
+  </data>
+  <data name="MyMovies_FileScan_Column_Folder" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="View_Toolbar_New" xml:space="preserve">
+    <value>New subtitles</value>
+  </data>
+  <data name="FrmDetails_HistoryType_ImdbUpdated" xml:space="preserve">
+    <value>IMDb updated</value>
+  </data>
+  <data name="Search_Context_SuggestedTitles" xml:space="preserve">
+    <value>Suggested titles</value>
+  </data>
+  <data name="FrmAddMyMovieFolder_Error_FolderNotValid" xml:space="preserve">
+    <value>Folder is not valid.</value>
+  </data>
+  <data name="FrmDetails_Tab_Comments_Note_SelectLanguageToViewAddComments" xml:space="preserve">
+    <value>You must select language to view/add comments.</value>
+  </data>
+  <data name="Ctrl_VideoPlayer_DiscN" xml:space="preserve">
+    <value>Disc {0}:</value>
+  </data>
+  <data name="Language_JA" xml:space="preserve">
+    <value>Japanese</value>
+  </data>
+  <data name="Language_KO" xml:space="preserve">
+    <value>Korean</value>
+  </data>
+  <data name="Language_HE" xml:space="preserve">
+    <value>Hebrew</value>
+  </data>
+  <data name="Language_HI" xml:space="preserve">
+    <value>Hindi</value>
+  </data>
+  <data name="Language_HR" xml:space="preserve">
+    <value>Croatian</value>
+  </data>
+  <data name="Language_HU" xml:space="preserve">
+    <value>Hungarian</value>
+  </data>
+  <data name="Language_ID" xml:space="preserve">
+    <value>Indonesian</value>
+  </data>
+  <data name="Language_IS" xml:space="preserve">
+    <value>Icelandic</value>
+  </data>
+  <data name="Language_IT" xml:space="preserve">
+    <value>Italian</value>
+  </data>
+  <data name="Language_NO" xml:space="preserve">
+    <value>Norwegian</value>
+  </data>
+  <data name="Language_NL" xml:space="preserve">
+    <value>Dutch</value>
+  </data>
+  <data name="Language_LT" xml:space="preserve">
+    <value>Lithuanian</value>
+  </data>
+  <data name="Language_LV" xml:space="preserve">
+    <value>Latvian</value>
+  </data>
+  <data name="Language_MK" xml:space="preserve">
+    <value>Macedonian</value>
+  </data>
+  <data name="Language_BG" xml:space="preserve">
+    <value>Bulgarian</value>
+  </data>
+  <data name="Language_BE" xml:space="preserve">
+    <value>Belarusian</value>
+  </data>
+  <data name="Language_CA" xml:space="preserve">
+    <value>Catalan</value>
+  </data>
+  <data name="Language_CS" xml:space="preserve">
+    <value>Czech</value>
+  </data>
+  <data name="Language_AR" xml:space="preserve">
+    <value>Arabic</value>
+  </data>
+  <data name="Language_FI" xml:space="preserve">
+    <value>Finnish</value>
+  </data>
+  <data name="Language_FA" xml:space="preserve">
+    <value>Persian</value>
+  </data>
+  <data name="Language_FR" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="Language_DE" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="Language_DA" xml:space="preserve">
+    <value>Danish</value>
+  </data>
+  <data name="Language_EL" xml:space="preserve">
+    <value>Greek</value>
+  </data>
+  <data name="Language_EN" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Language_ET" xml:space="preserve">
+    <value>Estonian</value>
+  </data>
+  <data name="Language_ES" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="Language_RU" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="Language_RO" xml:space="preserve">
+    <value>Romanian</value>
+  </data>
+  <data name="Language_SQ" xml:space="preserve">
+    <value>Albanian</value>
+  </data>
+  <data name="Language_SV" xml:space="preserve">
+    <value>Swedish</value>
+  </data>
+  <data name="Language_SK" xml:space="preserve">
+    <value>Slovak</value>
+  </data>
+  <data name="Language_SL" xml:space="preserve">
+    <value>Slovenian</value>
+  </data>
+  <data name="Language_PT" xml:space="preserve">
+    <value>Portuguese</value>
+  </data>
+  <data name="Language_PL" xml:space="preserve">
+    <value>Polish</value>
+  </data>
+  <data name="Language_VI" xml:space="preserve">
+    <value>Vietnamese</value>
+  </data>
+  <data name="Language_TR" xml:space="preserve">
+    <value>Turkish</value>
+  </data>
+  <data name="Language_TH" xml:space="preserve">
+    <value>Thai</value>
+  </data>
+  <data name="Language_UK" xml:space="preserve">
+    <value>Ukrainian</value>
+  </data>
+  <data name="Search_Panel_ResultsFiltering_Publisher" xml:space="preserve">
+    <value>Publisher:</value>
+  </data>
+  <data name="SelectIMDB_Panel_SearchCriteria" xml:space="preserve">
+    <value>Search criteria</value>
+  </data>
+  <data name="Search_Toolbar_OpenHomePage_Tooltip" xml:space="preserve">
+    <value>Opens subtitles web application.</value>
+  </data>
+  <data name="Search_Panel_ResultsFiltering_Rate" xml:space="preserve">
+    <value>Rate:</value>
+  </data>
+  <data name="Search_Panel_ResultsFiltering_Type" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="Settings_Panel_SettingsUI_SubtitleDoubleClickAction_Details" xml:space="preserve">
+    <value>Subtitle details</value>
+  </data>
+  <data name="Search_Panel_ManualSearchCriteria_Button_Suggest" xml:space="preserve">
+    <value>Suggest</value>
+  </data>
+  <data name="FrmReportError_HowToHandleFutureErrors_DisplayDialog" xml:space="preserve">
+    <value>Display this dialog</value>
+  </data>
+  <data name="Common_SearchResults_Column_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleDetails_Attr1_E" xml:space="preserve">
+    <value>External subtitle</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleDetails_Attr1_D" xml:space="preserve">
+    <value>Deleted subtitle</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleDetails_Attr1_C" xml:space="preserve">
+    <value>Confirmed subtitle</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleDetails_Attr1_P" xml:space="preserve">
+    <value>Published subtitle</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleDetails_Attr3_L" xml:space="preserve">
+    <value>Subtitle is linked with selected video file</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleDetails_Attr2_C" xml:space="preserve">
+    <value>Subtitle is standard compliant</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleDetails_Attr2_P" xml:space="preserve">
+    <value>Subtitle is partially standard compliant</value>
+  </data>
+  <data name="FrmDetails_Tab_SubtitleDetails_Attr_NA" xml:space="preserve">
+    <value>Information not available</value>
+  </data>
+  <data name="FrmDownload_Title" xml:space="preserve">
+    <value>Your download will begin in few seconds</value>
+  </data>
+  <data name="Search_Warning_SavingWasCanceledBecauseFolderIsNotSet" xml:space="preserve">
+    <value>Saving was canceled because subtitle folder was not set.</value>
+  </data>
+  <data name="Plugins_Admin_Menu_Subtitles" xml:space="preserve">
+    <value>Subtitles</value>
+  </data>
+  <data name="LogIn_RememberMe" xml:space="preserve">
+    <value>Remember me on this computer.</value>
+  </data>
+  <data name="View_Statistics_DisplayGraph" xml:space="preserve">
+    <value>Graph:</value>
+  </data>
+  <data name="Application_Error_ErrorSavingUserSettings" xml:space="preserve">
+    <value>There was an error while saving settings.
+
+Details: {0}</value>
+  </data>
+  <data name="Settings_Panel_DownloadFolder_Auto" xml:space="preserve">
+    <value>Auto ({0})</value>
+  </data>
+  <data name="MyMovies_Folders_Column_SearchSubfolders" xml:space="preserve">
+    <value>Search subfolders</value>
+  </data>
+  <data name="Profile_UserInfo_General_Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Settings_Panel_SettingsUI_SubtitleDoubleClickAction_Download" xml:space="preserve">
+    <value>Download subtitle</value>
+  </data>
+  <data name="ContextTab_News_Title" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="MyMovies_FileScan_ContextMenu_FileActions_OpenInExplorer" xml:space="preserve">
+    <value>Open in Explorer</value>
+  </data>
+  <data name="LogIn_Error_WrongUsernameOrPassword" xml:space="preserve">
+    <value>Wrong username or password.</value>
+  </data>
+  <data name="Connect_Info_NewVersionIsRequired" xml:space="preserve">
+    <value>New version of application is required.
+
+Please download newest version from http://www.sublight.si/</value>
+  </data>
+  <data name="SelectIMDB_Panel_SearchCriteria_Title" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="View_Toolbar_Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Profile_UserInfo_Label_User" xml:space="preserve">
+    <value>User:</value>
+  </data>
+</root>

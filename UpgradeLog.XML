@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Sublight">
+</Property><Property Name="Solution File" Value="G:\WORK\Sublight\Sublight.VB\Full\Sublight.sln">
+</Property><Property Name="Date" Value="Friday, May 14, 2010">
+</Property><Property Name="Time" Value="21:49:52 PM">
+</Property></Properties><Event ErrorLevel="2" Project="Sublight" Source="Sublight.vbproj" Description="Error converting project file.  Illegal characters in path.">
+</Event><Event ErrorLevel="3" Project="Sublight" Source="Sublight.vbproj" Description="Not Converted">
+</Event><Event ErrorLevel="2" Project="" Source="Sublight.vbproj" Description="The operation could not be completed. The parameter is incorrect. ">
+</Event></UpgradeLog>

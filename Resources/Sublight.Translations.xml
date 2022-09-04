@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Translations>
+  <Translation Name="العربية‏" Code="ar-EG" />
+  <Translation Name="català" Code="ca-ES" />
+  <Translation Name="Deutsch" Code="de-DE" />
+  <Translation Name="English" Code="en-US" />
+  <Translation Name="español" Code="es-ES" />
+  <Translation Name="français" Code="fr-FR" />
+  <Translation Name="македонски" Code="mk-MK" />
+  <Translation Name="Norsk" Code="nn-NO" />
+  <Translation Name="Português (Brasil)" Code="pt-BR" />
+  <Translation Name="português (Portugal)" Code="pt-PT" />
+  <Translation Name="slovenski" Code="sl-SI" />
+  <Translation Name="srpski" Code="sr-Latn-CS" />
+  <Translation Name="svenska (Sverige)" Code="sv-SE" />
+</Translations>
